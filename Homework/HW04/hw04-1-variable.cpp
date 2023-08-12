@@ -12,7 +12,7 @@
     char d []= "a";
     printf("input:\n");
     scanf("%d %f %s %c",&a ,&b ,c ,&d); //TODO: #10 Display variable a, b, c and d.
-    printf("Output: 10 ,20.0 ,Haha ,a ");
+    printf("Output:\n 10 20.0 Haha a ");
     return 0; }
 
     
