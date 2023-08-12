@@ -10,9 +10,9 @@
     float b = 20.0 ;
     char c []= "Haha";
     char d []= "a";
-    printf("_ _ _ _\n") ; //TODO: #10 Display variable a, b, c and d.
-    scanf("%d",a ,b ,c ,d);
-    printf("10 20.0 Haha a\n",a ,b ,c ,d);
+    printf("input:\n");
+    scanf("%d %f %s %c",&a ,&b ,c ,&d); //TODO: #10 Display variable a, b, c and d.
+    printf("Output: 10 ,20.0 ,Haha ,a ");
     return 0; }
 
     
