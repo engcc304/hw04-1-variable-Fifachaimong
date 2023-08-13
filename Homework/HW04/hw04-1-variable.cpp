@@ -5,14 +5,12 @@
         10 20.0 Haha a
 */
 #include <stdio.h>
-    int main(){
+int main(){
     int a = 10 ;
-    float b = 20.0 ;
-    char c []= "Haha";
-    char d []= "a";
-    printf("input:\n");
-    scanf("%d %f %s %s",&a ,&b ,&c ,&d); //TODO: #10 Display variable a, b, c and d.
-    printf("Output:\n %d %0.1f %s %s",a ,b ,c ,d);
-    return 0; }
+    float b = 20 ;
+    char c[] = "Haha" ;
+    char d = 'a' ;
+    printf( "%d %0.1f %s %c",a ,b ,c ,d) ; //TODO: #10 Display variable a, b, c and d.
+}
 
     
