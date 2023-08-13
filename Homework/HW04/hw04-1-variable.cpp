@@ -11,7 +11,7 @@
     char c []= "Haha";
     char d []= "a";
     printf("input:\n");
-    scanf("%d %d %d %d",&a ,&b ,&c ,&d); //TODO: #10 Display variable a, b, c and d.
+    scanf("%d %f %s %s",&a ,&b ,&c ,&d); //TODO: #10 Display variable a, b, c and d.
     printf("Output:\n %d %0.1f %s %s",a ,b ,c ,d);
     return 0; }
 
